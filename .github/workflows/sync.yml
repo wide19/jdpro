@@ -24,7 +24,7 @@ jobs:
                   target_repo_token: ${{ secrets.GITHUB_TOKEN }}
                   upstream_sync_repo: 6dylan6/jdpro
                   upstream_sync_branch: main
-                  target_sync_branch: sync
+                  target_sync_branch: main
                   test_mode: false
 
             - name: Check for Failure
